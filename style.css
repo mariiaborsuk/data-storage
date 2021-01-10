@@ -1,0 +1,179 @@
+body {
+	width:90vw;
+	height: :100%;
+	background-color: hsl(229, 57%, 11%);
+	background-image: url("images/bg-desktop.png");
+	background-repeat: no-repeat;
+	background-position: 130% 900%;
+	background-size: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.main {
+	width: 75%;
+	height:35vh;
+	align-self: center;
+	margin-top: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+}
+.main>div{
+	margin:10px;
+	background-color: hsl(228, 56%, 26%);
+	
+}
+.flyo{
+	width: 400px;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 60px 10px 10px;
+
+}
+.logo{
+	flex: 1;
+	padding: 30px;
+
+}
+.logo > img {
+	margin:auto;
+}
+.pictures {
+	flex:1;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px; 
+
+
+}
+.images {
+	flex-basis: 60px;
+	height: 60px;
+	border-radius: 10px;
+	object-position: 30px 30px;
+	margin:10px;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	background-color:hsl(229, 57%, 11%);                                                                                                          
+
+}
+
+.data{
+	height:25vh;
+	width: 600px;
+	border-radius:10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: hsl(243, 100%, 93%);
+	position:relative;
+}
+.data > div {
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.triangle{
+	width: 140px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	top: -60px;
+	left: 270px;
+	border-radius: 10px;
+	z-index: 2;
+}
+.triangle > div {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+@media only screen and (min-width: 700px){
+.tail{
+	width:20px;
+	height: 30px;
+	background-color: white;
+	z-index: 6;
+	position:relative;
+	transform: rotate(50deg);
+	transform: skewY(40deg);
+	left:95px;
+	top:-15px;
+}
+}
+.text > .bold {
+	color:black;
+}
+.bold{
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+.gray{
+	color:gray;
+}
+.line {
+	width: 80%;
+	height: 20px;
+	margin-top: 60px;
+	background-color: hsl(229, 57%, 11%);
+	border-radius: 10px;
+}
+
+.used {
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)); 
+	width: 75%;
+		border-radius: 10px;
+		display: flex;
+		justify-content: flex-end;
+}
+.circle{
+	width:20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50px;
+margin-right: 2px;
+}
+.numbers{
+	width:80%;
+	height: 30px;
+	
+}
+.number{
+		width: 50px;
+}
+.right{
+	margin-left: 320px;
+}
+.attribution{
+	position: absolute;
+	bottom:0px;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		background-image: url("images/bg-mobile.png");
+		background-position: 10% 30%;
+	background-size: 100%;
+	}
+	.main{
+		flex-direction: column;
+		margin-left: 100px;
+	}
+	.data{
+		width: 400px;
+	}
+	.triangle{
+	top: 100px;
+		left: 90px;
+	}
+	.right {
+		margin-left: 200px;
+	}
+}
