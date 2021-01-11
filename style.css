@@ -168,7 +168,9 @@ margin-right: 2px;
 		width: 80%;
 		margin: auto;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: center;
+		margin-top: 50px;
+
 	}
 	.data{
 		width: 300px;
