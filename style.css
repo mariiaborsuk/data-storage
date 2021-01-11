@@ -168,7 +168,7 @@ margin-right: 2px;
 		width: 80%;
 		margin: auto;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-end;
 	}
 	.data{
 		width: 300px;
@@ -178,7 +178,7 @@ margin-right: 2px;
 	}
 	.triangle{
 	top: 100px;
-		left: 90px;
+		margin:auto;
 	}
 	.right {
 		margin-left: 180px;
