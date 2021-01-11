@@ -167,9 +167,14 @@ margin-right: 2px;
 		flex-direction: column;
 		width: 80%;
 		margin: auto;
+		align-items: center;
+		justify-content: center;
 	}
 	.data{
-		width: 200px;
+		width: 300px;
+	}
+	.flyo{
+		width:300px;
 	}
 	.triangle{
 	top: 100px;
